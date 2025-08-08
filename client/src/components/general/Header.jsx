@@ -13,14 +13,9 @@ const Header = () => {
             className="text-zinc-700 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-white transition-colors cursor-pointer text-2xl font-helvetica font-semibold flex space-x-2 justify-center items-center"
           >
             <span className="sm:inline">{appName}</span>
-            <img
-              src="https://static.vecteezy.com/system/resources/thumbnails/017/744/376/small_2x/stock-exchange-market-with-chart-png.png"
-              alt="app-logo"
-              className="h-[35px] active:animate-spin"
-            />
           </Link>
         </div>
-        <div className="text-zinc-600 dark:text-zinc-400 md:flex justify-center items-center space-x-7 font-semibold">
+        <div className="text-zinc-600 dark:text-zinc-400 flex justify-center items-center space-x-7 font-semibold">
           <SearchBox />
           <ToggleTheme/>
         </div>

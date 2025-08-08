@@ -22,7 +22,7 @@ function SearchBox() {
 
   return (
     <div className="lg:h-20 h-[4.5rem] lg:py-5 pt-4 pb-[1rem] flex space-x-2 md:w-72">
-      <div className="w-full relative hidden md:inline-block">
+      <div className="w-full relative">
         <form onSubmit={handleSubmit}>
           <input
             type="text"
